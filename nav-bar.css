@@ -1,0 +1,62 @@
+body,html{
+    background-color: white;
+}
+#header{
+    background-color: #ffffff;
+    overflow: hidden;
+    top:0;
+    position:absolute;
+    display: flex;
+    box-shadow: 0px 0px 8px;
+    color:black;
+    height: max-content;
+}
+
+#name{
+    padding: 1%;
+    font-family:Norican,Georgia,sans-serif,serif;
+    margin-right: -10px;
+}
+#name h1{
+    color:black;
+}
+
+#nav-items{
+    color:black;
+    padding:0.6%;
+    text-align: end;
+}
+
+#nav-items a{
+    font-size: 25px;
+    text-decoration:none;
+    color:black;
+    justify-content: space-evenly;
+    font-family: itim,Georgia,sans-serif,serif;
+
+}
+
+#temp{
+    float:right;
+    padding-left: 0.5%;
+}
+#header button{
+    background-color: black;
+    
+}
+
+#nav-items li{
+    margin:0.3%;
+}
+
+#nav-items a:hover{
+    color:#070ff6;
+}
+
+#nav-items a.active{
+    color:#0d5cb6;
+}
+
+.navbar{
+    z-index: 100;
+}

@@ -1,0 +1,291 @@
+html, body {
+  margin: 0;
+}
+canvas {
+  display: block;
+  z-index: 1;
+}
+
+.liveMatchArea{
+  height:60%;
+  width:80%;
+  background-color: #040b3d28;
+  background-image: url("Images/liveMatchBack.jpg");
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.match{
+  background-color: #fffcfceb;
+  width:90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border:none;
+  text-align: left;
+  box-shadow: 0px 0px 2px;
+}
+
+.match:hover{
+  box-shadow: 0px 0px 10px;
+}
+
+
+.liveMatchHead{
+  margin-top: 10px;
+  font-family: Allerta Stencil;
+  color:white;
+  margin-bottom: 10px;
+}
+
+.matchText{
+  font-family: Georgia;
+}
+.matchInfoBox{
+  margin:10px;
+}
+
+.ticker {
+  position: relative;
+  width: 100%;
+  padding: 7px;
+  background-color: #aaae73;
+  color: #ffffff;
+  font-weight:normal;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+/*live score board to edit*/
+.liveScoreBoard {
+  color:white;
+  align-items: center;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.matchScoreBox {
+  background-color: #dec79f;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background-image: url("Images/scoreboard.jpg");
+  background-size: cover;
+  background-position: center;
+  width:auto;
+  overflow: hidden;
+
+}
+
+.matchName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: cursive,Arial, Helvetica, sans-serif;
+  height:55px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.scoreRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.teamScore {
+  width: 50%;
+  text-align: center;
+}
+
+.score{
+  background-image: url("Images/blueteam.png");
+  background-position: center;
+  background-size: contain;
+  font-size: 30px;
+  padding:40px;
+  overflow: hidden;
+}
+
+.batsmanRow {
+  text-align: center;
+}
+
+.batsman {
+  font-size: 14px;
+  color: #888;
+  color:white;
+  background-image: url("Images/redteam.png");
+  background-position: center;
+  border-radius: 10px;
+  padding:10px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+
+
+.merchandiseButton{
+  width:150px;
+  height:250px;
+  background-image: url("Images/merchandisegif2.gif");
+  background-position:center;
+  border-radius: 1px 50px 50px 1px;
+  border: none;
+  background-size: cover;
+  border: 1px green ridge;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  font-family:Allerta Stencil, cursive,sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.ticketBook{
+  width:150px;
+  height:250px;
+  background-image: url("Images/bowlinggif2.gif");
+  background-position:center;
+  border-radius: 50px 1px 1px 50px;
+  border: none;
+  background-size: 300%;
+  border: 1px green ridge;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  font-family:Allerta Stencil, cursive,sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.mtext{
+  width:150px;
+  height:160px;
+  font-size: 20px;
+  background-image: url("Images/merch.png");
+  background-position:bottom;
+  background-size: contain;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  background-color: rgb(12, 7, 63);
+  color:white;
+}
+
+.mtext:hover{
+  width:160px;
+  height:170px;
+  box-shadow: 0px 0px 10px blue;
+}
+.bttext{
+  width:150px;
+  height:160px;
+  font-size: 20px;
+  background-image: url("Images/ticket.png");
+  background-position:bottom;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  font-family: cursive,sans-serif;
+  padding-top: 10px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  background-color: #a4e3fc;
+  color:black;
+}
+
+.bttext:hover{
+  width:160px;
+  height:170px;
+  box-shadow: 0px 0px 10px blue;
+}
+
+.matchInfoPage{
+  position: relative;
+  width: 100%;
+  align-items: center;
+  height:100vh;
+  background-image: url("Images/score1234.jpg");
+  background-position: center;
+  background-size: cover;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.MIPtext{
+  margin-top: 100px;
+}
+.infoMIP{
+  background-color: #05fd3aaa;
+  width:max-content;
+  padding: 20px;
+  border-radius: 30px;
+  
+}
+
+.jersey{
+  width:10px;
+  height: 60px;
+  margin:20px;
+}
+.MerchHead{
+  font-family: Allerta Stencil,cursive,sans-serif;
+  color: white;
+}
+.imgj{
+  width: 100%;
+  border-radius: 20px;
+  border:5px rgb(237, 252, 32) ridge;
+  padding: 20pz;
+}
+
+.trophybutton{
+  height:330px;
+  border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .liveScoreBoard {
+    display: none;
+  }
+  .merchandiseButton{
+    display: none;
+  }
+  .ticketBook{
+    display: none;
+  }
+  .mtext{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .merchandiseButton{
+    display: none;
+  }
+  .ticketBook{
+    display: none;
+  }
+  .mtext{
+    display: none;
+  }
+}
